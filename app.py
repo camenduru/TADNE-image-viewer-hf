@@ -94,7 +94,7 @@ def main():
     gr.Interface(
         func,
         [
-            gr.inputs.Number(default=0, label='Seed'),
+            gr.inputs.Number(default=0, label='Start Seed'),
             gr.inputs.Slider(1, 10, step=1, default=2, label='Number of Rows'),
             gr.inputs.Slider(
                 1, 10, step=1, default=5, label='Number of Columns'),
