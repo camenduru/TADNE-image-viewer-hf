@@ -73,8 +73,6 @@ def run(start_seed: int, nrows: int, ncols: int, image_size: int,
 
 
 def main():
-    gr.close_all()
-
     args = parse_args()
 
     image_size = 128
